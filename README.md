@@ -89,7 +89,7 @@ heroku stack:set container
 ```
 - Add Private Credentials and Config Stuff:
 ```
-git add -f credentials.json token.pickle config.env heroku.yml
+git add -f credentials.json token.pickle config.env heroku.yml drive_folder
 ```
 - Commit new changes:
 ```
