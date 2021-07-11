@@ -1,0 +1,13 @@
+{
+    "name": "SearchInDriveBot",
+    "description": "A Telegram bot to list/search multiple Gdrive",
+    "logo": "",
+    "keywords": [
+      "bot",
+      "telegram"
+    ],
+    "repository": "https://github.com/anmoldh/SearchInDriveBot",
+    "website": "https://github.com/anmoldh/SearchInDriveBot",
+    "success_url": "https://t.me/WeNubMirrors",
+    "stack": "container"
+}
