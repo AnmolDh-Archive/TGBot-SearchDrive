@@ -10,11 +10,7 @@
     "website": "https://github.com/anmoldh/SearchInDriveBot",
     "success_url": "https://t.me/WeNubMirrors",
     "stack": "container"
-    "env": {
-      "ENV": {
-        "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
-        "value": "ANYTHING"
-      },
+    "env" : {
       "BOT_TOKEN": {
         "description": "Get it from @Botfather",
         "required": true
