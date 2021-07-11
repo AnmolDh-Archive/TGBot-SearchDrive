@@ -1,7 +1,7 @@
 {
     "name": "SearchInDriveBot",
     "description": "A Telegram bot to list/search multiple Gdrive",
-    "logo": "",
+    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
     "keywords": [
       "bot",
       "telegram"
