@@ -10,4 +10,18 @@
     "website": "https://github.com/anmoldh/SearchInDriveBot",
     "success_url": "https://t.me/WeNubMirrors",
     "stack": "container"
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Get it from @Botfather",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Telegram ID, Get it using @MissRose_Bot",
+        "required": true
+      },
+      "TELEGRAPH_TOKEN": {
+        "description": "Get it from telegra.ph",
+        "required": true
+      },
+   }
 }
