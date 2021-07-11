@@ -10,11 +10,11 @@
     "website": "https://github.com/anmoldh/SearchInDriveBot",
     "success_url": "https://t.me/WeNubMirrors",
     "stack": "container"
-    "env": {
-
+    },
+      "env": {
       "BUTTON_FIVE_URL": {
-        "description": "Fill your URL if you are using extra buttons.",
-        "required": false
+      "description": "Fill your URL if you are using extra buttons.",
+      "required": false
       },
       "BUTTON_SIX_NAME": {
         "description": "Extra buttons (optional).",
@@ -24,4 +24,3 @@
         "description": "Fill your URL if you are using extra buttons.",
         "required": false
       }
-}
