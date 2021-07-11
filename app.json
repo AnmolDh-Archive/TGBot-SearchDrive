@@ -10,7 +10,7 @@
     "website": "https://github.com/anmoldh/SearchInDriveBot",
     "success_url": "https://t.me/WeNubMirrors",
     "stack": "container"
-    "env" : {
+    "env": {
       "BOT_TOKEN": {
         "description": "Get it from @Botfather",
         "required": true
