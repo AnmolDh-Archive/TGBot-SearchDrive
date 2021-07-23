@@ -7,13 +7,9 @@ from .modules import authorize, list
 
 @run_async
 def start(update, context):
-    buttons = button_build.ButtonMaker()
-    buttons.buildbutton("We◉NúbGang", "https://t.me/WeNubGang")
-    buttons.buildbutton("Mirror Group", "https://t.me/WeNubMirrors")
-    reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id,update.message.chat.username,update.message.text))
     if update.message.chat.type == "private" :
-        sendMessage(f"Hey <b>{update.message.chat.first_name}</b>. Welcome to <b>SearchInDriveBot</b>", context.bot, update, reply_markup)
+        sendMessage(f"Hey <b>{update.message.chat.first_name}</b>. Welcome to <b>SearchInDriveBot</b>", context.bot, update)
     else :
         sendMessage("I'm alive :)", context.bot, update)
 
