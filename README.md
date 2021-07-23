@@ -3,9 +3,6 @@ This is a telegram bot writen in python for searching files in Drive.
 
 # How to deploy?
 
-- One Click Heroku Deploy:
-<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
 - Clone this repo:
 ```
 git clone https://github.com/SVR666/SearchX-bot search-bot/
