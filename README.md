@@ -130,4 +130,5 @@ sudo docker run search-bot
 ```
 # Credits :
 
+- SearchX-bot - [SVR666](https://github.com/SVR666/SearchX-bot)
 - python-aria-mirror-bot - [lzzy12](https://github.com/lzzy12/python-aria-mirror-bot)
